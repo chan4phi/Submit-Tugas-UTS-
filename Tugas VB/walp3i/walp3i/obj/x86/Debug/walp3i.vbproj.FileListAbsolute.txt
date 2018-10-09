@@ -1,0 +1,10 @@
+F:\Kuliah\tugas\walp3i\walp3i\bin\x86\Debug\walp3i.exe
+F:\Kuliah\tugas\walp3i\walp3i\bin\x86\Debug\walp3i.pdb
+F:\Kuliah\tugas\walp3i\walp3i\bin\x86\Debug\walp3i.xml
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.vbprojResolveAssemblyReference.cache
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.Resources.resources
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.vbproj.GenerateResource.Cache
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.exe
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.xml
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.pdb
+F:\Kuliah\tugas\walp3i\walp3i\obj\x86\Debug\walp3i.FPengajuan.resources
