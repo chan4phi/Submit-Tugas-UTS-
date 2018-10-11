@@ -125,11 +125,11 @@ Public Class FPengajuan
             cmd = New SqlCommand(query, conn)
             dr = cmd.ExecuteReader
             dr.Read()
-            If dr("Bentuk") = "Tunai" Then
+            If dr("Bentuk").ToString.Trim() = "Tunai" Then
                 rb1.Checked = True
-            ElseIf dr("Bentuk") = "Cek Bank" Then
+            ElseIf dr("Bentuk").ToString.Trim() = "Cek Bank" Then
                 rb2.Checked = True
-            ElseIf dr("Bentuk") = "Giro" Then
+            ElseIf dr("Bentuk").ToString.Trim() = "Giro" Then
                 rb3.Checked = True
             End If
             tbID.Text = dr("PID")
