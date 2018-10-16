@@ -1,0 +1,10 @@
+F:\Kuliah\tugas\WaTrans\WaTrans\bin\Debug\WaTrans.exe
+F:\Kuliah\tugas\WaTrans\WaTrans\bin\Debug\WaTrans.pdb
+F:\Kuliah\tugas\WaTrans\WaTrans\bin\Debug\WaTrans.xml
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.vbprojResolveAssemblyReference.cache
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.FRequest.resources
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.Resources.resources
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.vbproj.GenerateResource.Cache
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.exe
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.xml
+F:\Kuliah\tugas\WaTrans\WaTrans\obj\Debug\WaTrans.pdb
