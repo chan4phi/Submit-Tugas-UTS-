@@ -8,7 +8,7 @@ $kategori		=	$_POST['kategori'];
 
 $namaFile		=	$_FILES['gambar']['name'];
 $namaSementara	=	$_FILES['gambar']['tmp_name'];
-$dirUpload		=	"../gambar";
+$dirUpload		=	"../gambar/";
 
 $terupload		=	move_uploaded_file($namaSementara,$dirUpload.$namaFile);
 
