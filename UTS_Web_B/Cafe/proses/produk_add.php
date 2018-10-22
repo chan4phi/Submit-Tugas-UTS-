@@ -6,8 +6,8 @@ $nama_produk	=	$_POST['nama_produk'];
 $harga			=	$_POST['harga'];
 $kategori		=	$_POST['kategori'];
 
-$namaFile		=	$_Files['gambar']['name'];
-$namaSementara	=	$_Files['gambar']['tmp_name'];
+$namaFile		=	$_FILES['gambar']['name'];
+$namaSementara	=	$_FILES['gambar']['tmp_name'];
 $dirUpload		=	"../gambar";
 
 $terupload		=	move_uploaded_file($namaSementara,$dirUpload.$namaFile);

@@ -1,23 +1,23 @@
-
+<?php include"proses/koneksi.php";?>
 <?php
 	$id = "";
 	$nama_produk="";
 	$harga="";
 	$kategori="";
-	$action ="produk_add.php";
+	$action ="proses/produk_add.php";
  if(isset($_GET['id'])){
 	 $id = $_GET['id'];
-	 include"proses/koneksi.php";
+	 
 	 $query = "select * from inputan where Kode_produk = '".$id."'";
 	 $row = mysql_query($query);
 	 $res = mysql_fetch_array($row);
 	 $nama_produk= $res['Nama_produk'];
 	 $harga= $res['harga'];
 	 $kategori= $res['Kategori_id'];
-	 $action ="produk_update.php";
+	 $action ="proses/produk_update.php";
 }
  ?>
-	<form class="form-vertical" method= "POST" action="proses/produk_add.php" action="<?php echo $action; ?>" enctype="multipart/form-data">
+	<form class="form-vertical" method= "POST" action="<?php echo $action; ?>" enctype="multipart/form-data">
 	<input type="hidden" value="<?php echo $id; ?>" name="id">
 	<div align="center">
 	<table border="0" cellpadding="3" width="50%" id="table1">
@@ -46,8 +46,8 @@
 	
 		<tr>
 	<td><center>Harga</center></td>
-	<td><div class="form-group"><div class="col-sm-9">
-	<input type="text" class="form-control" value="<?php echo $harga; ?>" name="harga"></div></div>
+	<td><div class="form-group">
+	<div class="col-sm-12"><input type="text" class="form-control" value="<?php echo $harga; ?>" name="harga"></div></div>
 	</td>
 		</tr>
      

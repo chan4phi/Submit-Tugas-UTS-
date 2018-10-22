@@ -28,8 +28,8 @@
         <td><?php echo $row['Nama_produk'];?></td>
         <td><?php echo $row['Kategori_id'];?></td>
 		<td><?php echo $row['harga'];?></td>
-        <td><a href="index.php?mod=produk_form&id=<?php echo $row['Kode_produk']; ?>" >Edit
-		| <a onclick="return confirm('Yakin data ini akan dihapus? ')" href="proses/produk_delete.php?id=<?php echo $row['Kode_produk']; ?>">Delete
+        <td><a href="index.php?mod=produk_form&id=<?php echo $row['Kode_produk']; ?>" >Edit</a>
+		| <a onclick="return confirm('Yakin data ini akan dihapus? ')" href="../proses/produk_delete.php?id=<?php echo $row['Kode_produk']; ?>">Delete</a>
 		
 		</td>
 		
